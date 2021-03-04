@@ -7,7 +7,7 @@ import InvitationReward from './components/InvitationReward';
 
 Vue.config.productionTip = false
 Vue.prototype.$api = api
-api.setUrl("http://localhost:8000/invitation_reward")
+api.setUrl("http://api.beerswap.vip/invitation_reward")
 Vue.use(VueRouter)
 
 const router = new VueRouter({
